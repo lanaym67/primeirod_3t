@@ -24,4 +24,7 @@ document.write("<br>")
 
 } 
 let lista = ["banana", "uva": "abacate", "tomate"];
-function "Minha lista"
+let lista = ["banana", "uva": "abacate", "tomate"];
+function minhalista(){
+    document.write(lista[1]);
+}
