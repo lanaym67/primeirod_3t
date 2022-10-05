@@ -24,3 +24,4 @@ document.write("<br>")
 
 } 
 let lista = ["banana", "uva": "abacate", "tomate"];
+function "Minha lista"
