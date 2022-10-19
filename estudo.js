@@ -8,16 +8,19 @@ function total(){
         document.write("Mês " + i + " valor: " + r +"<br>");
         c = r;
     }
+    
     document.write("Resultado: " + r);
 }
-
 function adicao () {
-    let val1 = document . getElementById ("v1") . value ;
-    let val2 = document . getElementById ("v2") . value ;
-    let r = Number ( val1 ) + Number ( val2 ) ;
-    document . getElementById (" resultado ") . innerHTML = r ;
-   
-    }
+     let val1 = document.getElementById("v1").value;
+     let val2 = document.getElementById("v2").value;
+     let r = Number( val1 ) + Number( val2 );
+     document.getElementById(" resultado ").innerHTML = r;
+}
 
-    function
-
+function subtracao () {
+    let val1 = document.getElementById("v1").value;
+    let val2 = document.getElementById("v2").value;
+    let r = Number( val1 ) - Number( val2 );
+    document.getElementById(" resultado ").innerHTML = r;
+}
